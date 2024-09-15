@@ -1,0 +1,86 @@
+index.html
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detro - Ma Chaîne YouTube</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenue sur Detro</h1>
+        <nav>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#videos">Vidéos</a></li>
+                <li><a href="#a-propos">À propos</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="accueil">
+        <h2>À propos de Detro</h2>
+        <p>Bienvenue sur la page officielle de ma chaîne YouTube Detro ! Ici, vous trouverez toutes mes dernières vidéos et des informations sur ma chaîne.</p>
+        <div class="youtube-embed">
+            <iframe width="560" height="315" src="https://www.youtube.com/@Detroytb" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <p>Abonnez-vous à ma chaîne pour ne rien manquer : <a href="https://www.youtube.com/@Detroytb" target="_blank">Detro sur YouTube</a></p>
+    </section>
+
+    <section id="videos">
+        <h2>Dernières Vidéos</h2>
+        <div class="video-list">
+            <!-- Remplace VIDEO_ID par les IDs de tes vidéos -->
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/5juqbLLC-gE&t=186sx" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p>Le jour où j'ai trucidé mon ami... GAGES EXTRÊMES ! (Feat. Pasco) 😅</p>
+            </div>
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/kU0sqzblwfE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p>Les BACKSTAGES DE YouTube 🤫 !</p>
+            </div>
+            <!-- Ajoute plus de vidéos ici -->
+        </div>
+    </section>
+
+    <section id="a-propos">
+        <h2>À propos</h2>
+        <p>Je suis Detro, créateur de contenu sur YouTube. Je fais des vidéos IRL et des concepts proposés par des abonnés. Rejoignez-moi pour des vidéos intéressantes et amusantes !</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contactez-nous</h2>
+        <form action="https://formspree.io/f/mnnayobe" method="post">
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="phone">Téléphone :</label>
+            <input type="tel" id="phone" name="phone">
+            
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+
+
+
+
+    
+    
+    
+    
+
+    <footer>
+        <p>&copy; 2024 Detro. Tous droits réservés.</p>
+        <p><a href="https://www.youtube.com/@Detroytb" target="_blank">Venez rejoindre la Destroy TEAM</a></p>
+    </footer>
+</body>
+</html>
